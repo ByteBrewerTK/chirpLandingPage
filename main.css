@@ -1,0 +1,444 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.head-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #fbf8f3;
+}
+.head-wrapper .head-content-wrapper {
+  width: 80%;
+  margin-top: 4rem;
+}
+.head-wrapper .head-content-wrapper .nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.head-wrapper .head-content-wrapper .nav-bar h2 {
+  font-size: 3rem;
+  color: #1da1f2;
+}
+.head-wrapper .head-content-wrapper .nav-bar .nav-right {
+  display: flex;
+  align-items: baseline;
+  gap: 3rem;
+}
+.head-wrapper .head-content-wrapper .nav-bar .nav-right ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.head-wrapper .head-content-wrapper .nav-bar .nav-right ul li {
+  cursor: pointer;
+}
+.head-wrapper .head-content-wrapper .nav-bar .nav-right ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+.head-wrapper .head-content-wrapper .nav-bar .nav-right button {
+  cursor: pointer;
+  width: 25rem;
+  height: 6rem;
+  background-color: #1da1f2;
+  font-size: 2rem;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+}
+.head-wrapper .head-content-wrapper .hero-content {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  margin-top: 3rem;
+  grid-template-columns: 60% 1fr;
+  overflow: hidden;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem 0;
+  padding-right: 7rem;
+  position: relative;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left h2 {
+  font-size: 7rem;
+  font-weight: 700;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left p {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left p b {
+  color: #1f7898;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .button-sec {
+  display: flex;
+  gap: 2rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .button-sec button {
+  cursor: pointer;
+  width: 25rem;
+  height: 6rem;
+  background-color: #1da1f2;
+  font-size: 2rem;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .button-sec span {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .button-sec span i {
+  color: #1f7898;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .button-sec span a {
+  text-decoration: none;
+  color: #1f7898;
+  font-weight: bold;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile {
+  display: inline-block;
+  display: flex;
+  position: relative;
+  width: auto;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile img {
+  position: relative;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img1 {
+  z-index: 9;
+  left: -16rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img2 {
+  z-index: 8;
+  left: -14rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img3 {
+  z-index: 7;
+  left: -12rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img4 {
+  z-index: 6;
+  left: -10rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img5 {
+  z-index: 5;
+  left: -8rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img6 {
+  z-index: 4;
+  left: -6rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img7 {
+  z-index: 3;
+  left: -4rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img8 {
+  z-index: 2;
+  left: -2rem;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-left .user-profile .img9 {
+  z-index: 1;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-right {
+  width: 100%;
+  height: auto;
+}
+.head-wrapper .head-content-wrapper .hero-content .hero-right .desktop-view {
+  width: 90%;
+  height: auto;
+  float: right;
+}
+
+.features-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.features-wrapper .feature-container {
+  width: 80%;
+  height: 100%;
+  flex-direction: column;
+  padding: 8rem 0;
+}
+.features-wrapper .feature-container .features-tittle {
+  width: 50%;
+}
+.features-wrapper .feature-container .features-tittle p {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.features-wrapper .feature-container .features-card-sec {
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.features-wrapper .feature-container .features-card-sec .analytic-card, .features-wrapper .feature-container .features-card-sec .smart-analyzer-card, .features-wrapper .feature-container .features-card-sec .scheduled-card, .features-wrapper .feature-container .features-card-sec .dark-mode-card {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.features-wrapper .feature-container .features-card-sec .analytic-card span, .features-wrapper .feature-container .features-card-sec .smart-analyzer-card span, .features-wrapper .feature-container .features-card-sec .scheduled-card span, .features-wrapper .feature-container .features-card-sec .dark-mode-card span {
+  font-size: 3rem;
+}
+.features-wrapper .feature-container .features-card-sec .analytic-card span img, .features-wrapper .feature-container .features-card-sec .smart-analyzer-card span img, .features-wrapper .feature-container .features-card-sec .scheduled-card span img, .features-wrapper .feature-container .features-card-sec .dark-mode-card span img {
+  width: 4rem;
+}
+.features-wrapper .feature-container .features-card-sec .analytic-card .dark-mode-icon, .features-wrapper .feature-container .features-card-sec .smart-analyzer-card .dark-mode-icon, .features-wrapper .feature-container .features-card-sec .scheduled-card .dark-mode-icon, .features-wrapper .feature-container .features-card-sec .dark-mode-card .dark-mode-icon {
+  font-size: 3rem;
+}
+.features-wrapper .feature-container .features-card-sec .analytic-card h2, .features-wrapper .feature-container .features-card-sec .smart-analyzer-card h2, .features-wrapper .feature-container .features-card-sec .scheduled-card h2, .features-wrapper .feature-container .features-card-sec .dark-mode-card h2 {
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+}
+.features-wrapper .feature-container .features-card-sec .analytic-card p, .features-wrapper .feature-container .features-card-sec .smart-analyzer-card p, .features-wrapper .feature-container .features-card-sec .scheduled-card p, .features-wrapper .feature-container .features-card-sec .dark-mode-card p {
+  padding-top: 1.5rem;
+  font-size: 1.9rem;
+  color: #8a8a89;
+}
+
+.tweet-wrapper {
+  width: 100%;
+  height: 70vh;
+  height: 70svh;
+  background-color: #d7f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tweet-wrapper .tweet-container {
+  width: 80%;
+  height: 50vh;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.tweet-wrapper .tweet-container .tweet-tittle {
+  font-size: 3rem;
+}
+.tweet-wrapper .tweet-container .tweet-card {
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 32.2%));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.tweet-wrapper .tweet-container .tweet-card .card {
+  padding: 3rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.tweet-wrapper .tweet-container .tweet-card .card .card-desc {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin: 2rem 0;
+  color: #8a8a89;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-header .profile {
+  display: flex;
+  gap: 1rem;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-header .profile-name-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-header .profile-name-head p {
+  font-size: 1.5rem;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-header .profile-name-head .user-name {
+  color: #8a8a89;
+}
+.tweet-wrapper .tweet-container .tweet-card .tweet-one, .tweet-wrapper .tweet-container .tweet-card .tweet-three {
+  height: 70%;
+}
+.tweet-wrapper .tweet-container .tweet-card .tweet-two {
+  min-height: 70%;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-footer .footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-footer .footer-left .like-count {
+  font-size: 2rem;
+  color: #8a8a89;
+}
+.tweet-wrapper .tweet-container .tweet-card .card-footer .card-date {
+  font-size: 2rem;
+  color: #8a8a89;
+}
+
+.subs-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.subs-wrapper .subs-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subs-wrapper .subs-container .card-outer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subs-wrapper .subs-container .card-outer .subs-tittle {
+  font-size: 4rem;
+}
+.subs-wrapper .subs-container .card-outer .subs-subtittle {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: #8a8a89;
+}
+.subs-wrapper .subs-container .card-outer .card {
+  width: 100%;
+  height: 50%;
+  background-color: #fbf8f3;
+  border-radius: 1rem;
+  padding: 3rem;
+  border: 1px solid #ffad23;
+  margin-top: 6rem;
+}
+.subs-wrapper .subs-container .card-outer .card hr {
+  margin: 2rem 0;
+}
+.subs-wrapper .subs-container .card-outer .card .subs-mnth {
+  font-size: 2rem;
+}
+.subs-wrapper .subs-container .card-outer .card .subs-price {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: baseline;
+}
+.subs-wrapper .subs-container .card-outer .card .subs-price h2 {
+  font-size: 5rem;
+}
+.subs-wrapper .subs-container .card-outer .card .subs-price span {
+  font-size: 2rem;
+}
+.subs-wrapper .subs-container .card-outer .card ul li {
+  line-height: 1.5;
+  list-style: none;
+  font-size: 1.7rem;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  margin: 2rem 0;
+}
+.subs-wrapper .subs-container .card-outer .card ul li::before {
+  content: "✓";
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #2ed8af;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.2rem;
+}
+.subs-wrapper .subs-container .card-outer .card button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+  height: 6rem;
+  gap: 1rem;
+  color: white;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.subs-wrapper .footer-content-wrapper {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  background-color: #d7f5f5;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subs-wrapper .footer-content-wrapper .footer-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.subs-wrapper .footer-content-wrapper .footer-content h2 {
+  color: #1da1f2;
+  font-size: 2rem;
+}
+.subs-wrapper .footer-content-wrapper .footer-content .footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 2rem;
+}/*# sourceMappingURL=main.css.map */
